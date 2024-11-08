@@ -1,0 +1,126 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+fonts
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+# Если используешь .venv, можно указать его имя ниже
+# или заменить на другое имя, если у окружения своё название
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# poetry
+poetry.lock
+poetry.toml
+
+# pyenv
+.python-version
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+.env.*
+
+# Flask files
+instance/
+.webassets-cache
+
+# Django files
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Testing
+.coverage
+.tox/
+.nox/
+.cache
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytype
+.pytype/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs (PyCharm, IntelliJ)
+.idea/
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python specific
+*.py[cod]
+*$py.class
+
+# PyCharm specific
+# Обычно генерируется в `.idea`, поэтому лучше избегать добавления всей папки
+.idea/
+*.iml
+
+# Сюда можно добавить любые индивидуальные файлы или папки, которые нужно исключить
+# Например, локальные конфигурации или временные файлы
+# /путь/к/индивидуальной/папке
+# файл_который_нужен_только_тебе.txt
+
+# Logs and debug
+logs/
+*.log
+
+# Local virtual environment directory
+# Если используется какой-то другой каталог для виртуальных окружений, можно добавить его здесь
+.vscode/
